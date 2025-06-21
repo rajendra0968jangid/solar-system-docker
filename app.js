@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, '/')));
 app.use(cors());
 
-mongoose.connect(process.env.MONGO_URI);
+mongoose.connect("mongodb+srv://rajendra0968jangid:py8IhsiFric2GamS@cluster0.wyu84.mongodb.net/solardb");
 
 var Schema = mongoose.Schema;
 
